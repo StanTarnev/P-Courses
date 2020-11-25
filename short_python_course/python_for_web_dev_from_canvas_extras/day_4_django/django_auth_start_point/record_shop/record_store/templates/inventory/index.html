@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="content container">
+	<div class="row">
+		<div class="col-md-8">
+			{% for artist in artists %}
+			<div class="inventory-item">
+			<h2>{{ artist.name }}</h2>
+			{% for album in artist.album_set.all %}
+				<li>{{ album.title }} - {{ album.year }}</li>
+
+			{% endfor %}
+			</div>
+			{% endfor %}
+
+		</div>
+	</div>
+</div>
+{% endblock %}

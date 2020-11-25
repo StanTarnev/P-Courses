@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>New Artist</h2>
+    <form method="POST" class="inventory-form">
+      {% csrf_token %}
+      <div class="form-group">
+        {{ form.as_p }}
+        </div>
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+{% endblock %}

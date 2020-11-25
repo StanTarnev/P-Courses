@@ -1,0 +1,68 @@
+[
+  {
+  "model": "inventory.Artist",
+  "pk": 1,
+  "fields": {
+    "name": "U2"
+  }
+},
+{
+"model": "inventory.Artist",
+"pk": 2,
+"fields": {
+  "name": "Led Zeppelin"
+}
+},
+{
+"model": "inventory.Artist",
+"pk": 3,
+"fields": {
+  "name": "Take That"
+}
+},
+{
+"model": "inventory.Album",
+"fields": {
+  "title": "Achtung Baby",
+  "year": 1991,
+  "stock_level": 2,
+  "artist": 1
+}
+},
+{
+"model": "inventory.Album",
+"fields": {
+  "title": "Zooropa",
+  "year": 1993,
+  "stock_level": 12,
+  "artist": 1
+}
+},
+{
+"model": "inventory.Album",
+"fields": {
+  "title": "Take That And Party",
+  "year": 1992,
+  "stock_level": 10,
+  "artist": 3
+}
+},
+{
+"model": "inventory.Album",
+"fields": {
+  "title": "Physical Graffiti",
+  "year": 1970,
+  "stock_level": 10,
+  "artist": 2
+}
+},
+{
+"model": "inventory.Album",
+"fields": {
+  "title": "Everything Changes",
+  "year": 1995,
+  "stock_level": 5,
+  "artist": 3
+}
+}
+]

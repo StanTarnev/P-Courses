@@ -1,0 +1,76 @@
+h1 a, h2 a {
+    color: lightsteelblue;
+    font-family: 'Lobster';
+}
+
+body{
+  color: ghostwhite;
+  background-image: url("/static/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 15px;
+
+}
+
+.page-header {
+    margin-top: 0;
+    padding: 0px 20px ;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+    color: ghostwhite;
+}
+
+.inventory-item {
+  list-style-type: square;
+  color: ghostwhite;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+input {
+  color: black;
+}
+
+.inventory-form input, select {
+    width: 20%;
+    color: black;
+}
+
+.inventory-form label {
+width: 100px;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.welcome {
+      color: #ffffff;
+      font-size: 2em;
+      margin-right: 50px;
+      float: right;
+}
+
+.inventory-item {
+    margin-bottom:70px;
+}
