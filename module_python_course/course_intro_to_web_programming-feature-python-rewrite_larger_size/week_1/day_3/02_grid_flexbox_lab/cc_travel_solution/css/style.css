@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+.row {
+  gap: 1fr;
+  grid-auto-flow: row;
+  grid-template-columns: 30% 30% 30%;;
+}
+
+
+.boxed-btn3 {
+  background: #1EC6B6;
+  color: #fff;
+  display: inline-block;
+  padding: 18px 41px;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid #1EC6B6;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff !important;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+/* Where to Go Form */
+.where_togo {
+  background: #040E27;
+  padding: 20px 10px;
+}
+
+.search-btn {
+  background: #FF4A52;
+  color: #fff;
+  display: inline-block;
+  padding: 13px 39px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.where_togo .form_area h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.where_togo .search_wrap .search_form {
+  display: flex;
+}
+
+.where_togo .search_wrap .input_field {
+  width: 220px;
+  margin: 10px;
+}
+
+.where_togo .search_wrap .input_field .datepicker {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 16px;
+  color: #919191;
+  margin-right: 15px;
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  color: #AAB1B7;
+}
+
+.where_togo .search_wrap .input_field input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #363E52;
+  padding-left: 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.where_togo .search_wrap .input_field input::placeholder {
+  font-size: 16px;
+  color: #AAB1B7;
+  font-weight: 300;
+}
+
+.where_togo .search_wrap .input_field input:focus {
+  outline: none;
+}
+
+.where_togo .search_wrap .input_field .nice-select {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  color: #AAB1B7;
+  font-weight: 300;
+  background: transparent;
+  border: 1px solid #363E52;
+}
+
+
